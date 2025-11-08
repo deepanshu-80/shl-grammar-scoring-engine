@@ -5,6 +5,8 @@ import language_tool_python
 import textstat
 
 tool = language_tool_python.LanguageTool('en-US')
+
+
 whisper = WhisperModel("tiny", device="cpu", compute_type="int8")
 
 model = joblib.load("models/grammar_model.pkl")
