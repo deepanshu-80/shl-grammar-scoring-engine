@@ -1,0 +1,16 @@
+train_audio/
+test_audio/
+flagged/
+models/
+__pycache__/
+*.log
+*.mp3
+*.ogg
+*.wav
+
+# Environment
+venv/
+.env
+
+# Kaggle features
+final_training_features.csv
